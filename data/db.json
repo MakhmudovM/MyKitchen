@@ -1,0 +1,58 @@
+{
+  "recipies": [
+    {
+      "id": "1",
+      "img":"https://main-cdn.sbermegamarket.ru/hlr-system/-17/321/304/386/131/158/100054460936b0.png",
+      "title": "Palov",
+      "ingredients": [
+        "guruch",
+        "sabzi",
+        "zira",
+        "go'sht",
+        "yog'",
+        "piyoz",
+        "tuz",
+        "suv"
+      ],
+      "cookingTime": "60 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    },
+    {
+      "id": "2",
+      "title": "Mastava",
+      "img":"https://chaihana19.ru/wp-content/uploads/2021/04/Машхурда.jpg",
+      "ingredients": [
+        "guruch",
+        "sabzi",
+        "go'sht",
+        "yog'",
+        "piyoz",
+        "kartoshka",
+        "tuz",
+        "suv",
+        "bolgarskiy-qalampir",
+        "pomidor"
+      ],
+      "cookingTime": "60 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    },
+    {
+      "id": "3",
+      "title": "Sho'rva",
+      "img":"https://gzeli-dostavka.ru/uploads/webp/catalog/piccy/shurpasbaraninoj.webp",
+      "ingredients": [
+        "sabzi",
+        "go'sht",
+        "yog'",
+        "piyoz",
+        "kartoshka",
+        "tuz",
+        "suv",
+        "bolgarskiy-qalampir",
+        "pomidor"
+      ],
+      "cookingTime": "60 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    }
+  ]
+}
