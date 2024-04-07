@@ -1,30 +1,34 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-//import { IoSunnyOutline } from "react-icons/io5";
-//import { IoMoonOutline } from "react-icons/io5";
+import { IoSunnyOutline } from "react-icons/io5";
+import { IoMoonOutline } from "react-icons/io5";
 
 
 
-export const Navbar = () => {
+const themes = {
+  winter: "winter",
+  dracula: "dracula"
+}
 
-  function darkModeFromLocalStrage() {
-    return localStorage.getItem("mode") || themes.winter;
-  }
+function darkModeFromLocalStorage() {
+  return localStorage.getItem('mode') || themes.winter;
+}
+
 
   function Navbar() {
-    const [theme, setTheme] = useState(darkModeFromLocalStrage())
+    const [theme , setTheme] = useState(darkModeFromLocalStorage())
 
-    const handlClick = () => {
-      const newTheme = theme == theme.winter ? theme.dracula : theme.winter;
+    const handleClick = () =>{
+      const newTheme = theme ==themes.winter ? themes.dracula : themes.winter
       setTheme(newTheme)
+      localStorage.setItem('mode' , newTheme)
     };
-
-    useEffect(() => {
-      document.documentElement.setAttribute("data-theme", theme);
-      localStorage.setItem("mode", theme);
+    
+    useEffect(()=>{
+      document.documentElement.setAttribute("data-theme" , theme)
     }, [theme])
-  }
+
   return (
     <div className="navbar mb-10">
       <div className="max-w-screen-lg w-full mx-auto flex justify-between items-center">
@@ -36,15 +40,15 @@ export const Navbar = () => {
         <label className="swap swap-rotate">
   
   {/* this hidden checkbox controls the state */}
-  <input type="checkbox" />
+  <input type="checkbox" onClick={handleClick} defaultChecked={theme == "winter" ? false : true}/>
   
    {/* sun icon */}
   
-  {/*<IoSunnyOutline className="swap-on fill-current w-8 h-8" />*/}
+  <IoSunnyOutline className="swap-on fill-current w-8 h-8" />
   
   {/* moon icon */}
 
-  {/*<IoMoonOutline className="swap-off fill-current w-8 h-8" />*/}
+  <IoMoonOutline className="swap-off fill-current w-8 h-8" />
   
   
 </label>

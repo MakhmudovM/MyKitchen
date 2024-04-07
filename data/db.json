@@ -2,7 +2,7 @@
   "recipies": [
     {
       "id": "1",
-      "img":"https://main-cdn.sbermegamarket.ru/hlr-system/-17/321/304/386/131/158/100054460936b0.png",
+      "img": "https://main-cdn.sbermegamarket.ru/hlr-system/-17/321/304/386/131/158/100054460936b0.png",
       "title": "Palov",
       "ingredients": [
         "guruch",
@@ -20,7 +20,7 @@
     {
       "id": "2",
       "title": "Mastava",
-      "img":"https://chaihana19.ru/wp-content/uploads/2021/04/Машхурда.jpg",
+      "img": "https://chaihana19.ru/wp-content/uploads/2021/04/Машхурда.jpg",
       "ingredients": [
         "guruch",
         "sabzi",
@@ -39,7 +39,7 @@
     {
       "id": "3",
       "title": "Sho'rva",
-      "img":"https://gzeli-dostavka.ru/uploads/webp/catalog/piccy/shurpasbaraninoj.webp",
+      "img": "https://gzeli-dostavka.ru/uploads/webp/catalog/piccy/shurpasbaraninoj.webp",
       "ingredients": [
         "sabzi",
         "go'sht",
@@ -53,6 +53,32 @@
       ],
       "cookingTime": "60 minutes",
       "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    },
+    {
+      "id": "1ec2",
+      "title": "osh",
+      "cookingTime": "120 minutes",
+      "method": "kop qadamka boir davay",
+      "img": "https://www.prpreston.ru/upload/iblock/796/796419a36b7bc5994e51c06097714f8b.jpg",
+      "ingredients": [
+        "gosh",
+        "piez",
+        "guruch",
+        "suv"
+      ]
+    },
+    {
+      "id": "a07c",
+      "title": "somsa",
+      "cookingTime": "120 minutes",
+      "method": "mazali somsa",
+      "img": "https://attuale.ru/wp-content/uploads/2018/02/3654126953_001.jpg",
+      "ingredients": [
+        "karchka",
+        "piez",
+        "gosht",
+        "hamir"
+      ]
     }
   ]
 }
