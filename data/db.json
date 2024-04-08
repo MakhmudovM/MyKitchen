@@ -68,16 +68,33 @@
       ]
     },
     {
-      "id": "a07c",
-      "title": "somsa",
-      "cookingTime": "120 minutes",
-      "method": "mazali somsa",
-      "img": "https://attuale.ru/wp-content/uploads/2018/02/3654126953_001.jpg",
+      "id": "ef9e",
+      "title": "BRITANSKIY ZAVTRAK SOSISKAMI ",
+      "cookingTime": "15 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quisquam repellat molestiae reiciendis cum, mollitia non eveniet doloribus maiores.",
+      "img": "https://wallbox.ru/resize/1920x1200/wallpapers/main2/201718/eda-doski-tarelka-sosiska-kartofel-vtorye-bluda.jpg",
       "ingredients": [
-        "karchka",
+        "sosiski",
+        "yoq",
+        "tuz",
+        "tuhum"
+      ]
+    },
+    {
+      "id": "b343",
+      "title": "taor ovaqat lar ",
+      "cookingTime": "60 minutes",
+      "method": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n",
+      "img": "https://dominikanadostavka777.ru/d/54987874_2.jpg",
+      "ingredients": [
+        "kartoshka ",
+        "sabzi",
+        "bolgar qalampir ",
+        "oil",
         "piez",
-        "gosht",
-        "hamir"
+        "bodiring",
+        "pomidor",
+        "tuz"
       ]
     }
   ]

@@ -30,7 +30,7 @@ function SingleRecipe() {
         <h1 className="text-4xl">{recipie.title}</h1>
         <p className=" mt-5 mb-5"><span className="font-bold text-emerald-400">ingredients:</span> {recipie.ingredients}</p>
         <p className=" mt-5 mb-5"><span className="font-bold text-emerald-400 "> Cooking time:</span> {recipie.cookingTime}</p>
-        <h2 className=" mt-5 mb-5"><span className="font-bold text-emerald-400">Cooking method:</span></h2>
+        <h2 className=" mt-5 "><span className="font-bold text-emerald-400">Cooking method:</span></h2>
         <p className="">
           {recipie.method}
         </p>
